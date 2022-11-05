@@ -5,8 +5,8 @@ interface HomeProps {
 export default function Home(props: HomeProps) {
   return (
     <div>
-      <h1>Hello, world!!!(::)</h1>
-      <p>You have {props.count} pools</p>
+      <h1 className="text-teal-900 text-xl">Hello, world!!!(::)</h1>
+      <p className="text-teal-700 text-lg">You have {props.count} pools</p>
     </div>
   );
 }

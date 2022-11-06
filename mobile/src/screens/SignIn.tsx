@@ -1,7 +1,7 @@
 import { Center, Text } from "native-base";
 import Logo from "../../assets/logo.svg";
-import Button from "../../components/Button";
-import { useAuth } from "../../hooks/useAuth";
+import Button from "../components/Button";
+import { useAuth } from "../hooks/useAuth";
 
 export default function SignIn() {
   const { signIn, user } = useAuth();
@@ -13,8 +13,9 @@ export default function SignIn() {
       <Button
         title="ENTRAR COM GOOGLE"
         leftIconName="google"
-        mt={12}
+        type={"SECONDARY"}
         onPress={signIn}
+        mt={12}
       />
 
       <Text color={"white"} mt={4}>

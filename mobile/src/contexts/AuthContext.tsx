@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import * as AuthSession from "expo-auth-session";
 
 export const AuthContext = createContext({} as AuthContextDataProps);
 

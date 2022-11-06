@@ -2,6 +2,7 @@
   "expo": {
     "name": "nlw-world-cup",
     "slug": "nlw-world-cup",
+    "scheme": "nlw-world-cup",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
